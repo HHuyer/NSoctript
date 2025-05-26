@@ -1,3 +1,4 @@
+-- Cảm hứng từ yee_kunkun(roblox name)
 -- Tạo ScreenGui
 local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Name = "SimpleHub"
@@ -148,7 +149,3 @@ end)
 createButton("Speed Hack", 180, function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/YourUsername/speed-hack/main/speed.lua"))()
 end)
-
--- Đề xuất thêm: Thêm biểu tượng hoặc màu sắc khác cho từng nút để dễ dàng nhận diện chức năng.
--- Đề xuất thêm: Thêm hiệu ứng hover (di chuột qua) cho các nút để người dùng biết được khi nào nút sẽ được click.
-
